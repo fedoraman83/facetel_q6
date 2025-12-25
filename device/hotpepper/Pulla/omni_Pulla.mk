@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from Pulla device
-$(call inherit-product, device/hotpepper/Pulla/device.mk)
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_DEVICE := Pulla
 PRODUCT_NAME := omni_Pulla
