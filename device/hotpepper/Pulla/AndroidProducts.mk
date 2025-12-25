@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Pulla.mk
+    omni_Pulla.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_Pulla-user \
