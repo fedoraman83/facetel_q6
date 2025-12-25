@@ -1,4 +1,5 @@
-DEVICE_PATH := device/hotpepper/Pulla
+LOCAL_PATH := device/hotpepper/Pulla
+DEVICE_PATH := $(LOCAL_PATH)
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
