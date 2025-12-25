@@ -1,5 +1,4 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Pulla.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_Pulla.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_Pulla-user \
