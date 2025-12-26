@@ -25,8 +25,11 @@ PRODUCT_MANUFACTURER := hotpepper
 
 PRODUCT_GMS_CLIENTID_BASE := android-generic
 
+# Force Platform Version to 12 and strip any potential whitespace
+PLATFORM_VERSION := 12
+PLATFORM_SDK_VERSION := 31
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_g863dmr_v2_szy_q6_us_t-user12TP1A.220624.0142023235release-keys"
+    PRIVATE_BUILD_DESC="hotpepper/Pulla/Pulla:12/SP2A.220405.004/test-keys"
 
-#BUILD_FINGERPRINT :=
-
+PRODUCT_OVERRIDE_FINGERPRINT := hotpepper/Pulla/Pulla:12/SP2A.220405.004/test-keys
