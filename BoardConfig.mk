@@ -69,4 +69,4 @@ TW_HAS_MTP := true
 # Security Patch Hack
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
-PLATFORM_VERSION := 12 # Set to 12 to match your build desc
+PLATFORM_VERSION := 12
