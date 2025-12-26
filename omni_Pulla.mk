@@ -27,8 +27,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-generic
 
 # Force Platform Version to 12 and strip any potential whitespace
 PLATFORM_VERSION := 12
-PLATFORM_SDK_VERSION := 31
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="hotpepper/Pulla/Pulla:12/SP2A.220405.004/test-keys"
 
